@@ -18,7 +18,7 @@ public class Sales {
 	private Long id; 
 	private String sellerName;
 	private Integer visited;
-	 private Integer deals;
+	private Integer deals;
 	private Double amount;
 	private LocalDate date;
 	
@@ -34,12 +34,12 @@ public class Sales {
 		this.id = id;
 	}
 
-	public String getSalerName() {
+	public String getSellerName() {
 		return sellerName;
 	}
 
-	public void setSalerName(String salerName) {
-		this.sellerName = salerName;
+	public void setSellerName(String sellerName) {
+		this.sellerName = sellerName;
 	}
 
 	public Integer getVisited() {
@@ -73,5 +73,5 @@ public class Sales {
 	public void setDate(LocalDate date) {
 		this.date = date;
 	}
-	
+
 }
